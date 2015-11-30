@@ -1,0 +1,12 @@
+Package: jags.parallel.tacc
+Title: parallel chains jags
+Version: 0.1
+Authors@R: "Ruizhu Huang <rhuang@tacc.utexas.edu> [aut, cre]"
+Description: parallel n chains using jags.parfit in dclone and pass samples to
+    mcmc2bugs in rjags
+Depends:
+    R (>= 3.1.1),
+    rjags,
+    dclone
+License: GPL-2
+LazyData: true
